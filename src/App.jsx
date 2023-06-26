@@ -1,14 +1,12 @@
-import './App.css'
+import "./App.css";
+import ContactList from './components/ContactList';
 
 function App() {
-
   return (
-
-      <div>
-        lol
-      </div>
-
-  )
+    <>
+      <ContactList />
+    </>
+  );
 }
 
-export default App
+export default App;
