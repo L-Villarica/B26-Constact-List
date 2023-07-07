@@ -15,7 +15,7 @@ export default function ContactList() {
     async function fetchContacts() {
       try {
         const response = await fetch(
-          "https://jsonplace-univclone.herokuapp.com/users"
+          "https://jsonplaceholder.typicode.com/users/"
         );
         const result = await response.json();
         console.log(result);
